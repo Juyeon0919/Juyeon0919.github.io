@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="Referrer" content="origin"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="apple-mobile-web-app-title" content="4XTL"/>
+    <meta name="robots" content="index,nofollow"/>
+    <meta name="description" content="4XTL"/>
+    <meta name="keywords" content="4XTL"/>
+    <meta property="og:image" content="img/logo.png"/>
+    <!--    <link rel="shortcut icon" href="favicon.ico">-->
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link type="text/css" rel="stylesheet" href="css/common.css"/>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.twbsPagination.js"></script>
+    <title>4XTL</title>
+</head>
+<body>
+<!-- s 프로그램 팝업 -->
+<div class="modal fade" id="programDetailModal" tabindex="-1" aria-labelledby="programDetailModalLabel" data-backdrop="static" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-md">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="programDetailModalLabel"></h5>
+                <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"><span class="sr-only">닫기</span></button>
+            </div>
+            <div class="modal-body">
+                <div class="title"><span>프로그램</span></div>
+                <div class="program-detail-content">
+                    <select class="program-select" id="program">
+                        <option value="0">순수예술에서 디지털 예술로으 전환, 새로운 가능성을 발견하다.</option>
+                        <option value="1">순수예술에서 디지털 예술로으 전환, 새로운 가능성을 발견하다.</option>
+                        <option value="2">순수예술에서 디지털 예술로으 전환, 새로운 가능성을 발견하다.</option>
+                    </select>
+                    <div class="program-info-box">
+                        <div class="program-info-heading">
+                            <div class="program-info-title">순수예술에서 디지털예술로의 전환, 새로운 가능성을 발견하다.</div>
+                            <div class="program-info-time">09:30~10:00</div>
+                        </div>
+                        <div class="program-info-desc">전 세계의 이목을 끈 실감형 콘텐츠 WAVE, ‘아르떼 뮤지엄’ 사례를 중심으로 설명하는 문화예술과 기술 융합에 있어 추구해야 하는 방
+                            향과 한-아세안 문화기술 교류의 미래 성장 가능성에 대한 이야기</div>
+                        <div class="speakers-intro-download">
+                            <span class="speakers-intro-download-title">자료 다운로드 : </span>
+                            <span class="speakers-intro-download-link"><a href="#">Document.pdf</a>, <a href="#">Document.pdf</a></span>
+                        </div>
+                    </div>
+                    <div class="speaker-intro-title">연사소개</div>
+                    <div class="speakers-list-wrap">
+                        <div class="speakers-intro-item">
+                            <div class="speakers-intro-item-img"><img src="img/profile-default.png" alt="profile"></div>
+                            <div class="speakers-intro-item-info">
+                                <div class="speakers-item-info-heading">
+                                    <span class="speakers-list-item-name">이성호</span>
+                                    <span class="speakers-list-item-job">디스트릭트 대표</span>
+                                    <span class="speakers-list-item-country">한국</span>
+                                </div>
+                                <div class="speakers-intro-description">
+                                    문화예술과 기술의 융합을 통해 가상과 현실을 잇는 실감 콘텐츠로 전 세계의 주목을 받고있는 디지털
+                                    디자인기업&lt;디스트릭트&gt;의 대표이다.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="speakers-intro-item">
+                            <div class="speakers-intro-item-img"><img src="img/profile-default.png" alt="profile"></div>
+                            <div class="speakers-intro-item-info">
+                                <div class="speakers-item-info-heading">
+                                    <span class="speakers-list-item-name">이성호</span>
+                                    <span class="speakers-list-item-job">디스트릭트 대표</span>
+                                    <span class="speakers-list-item-country">한국</span>
+                                </div>
+                                <div class="speakers-intro-description">
+                                    문화예술과 기술의 융합을 통해 가상과 현실을 잇는 실감 콘텐츠로 전 세계의 주목을 받고있는 디지털
+                                    디자인기업&lt;디스트릭트&gt;의 대표이다.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+    .program-detail-content {
+        padding-bottom: 50px;
+    }
+
+    .program-select {
+        position: relative;
+        width: 100%;
+        height: 40px;
+        padding: 0 16px 0 12px;
+        border: solid 1px #e5e5e5;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: -0.7px;
+        text-align: left;
+        color: #222;
+        -webkit-appearance:none;
+        -moz-appearance:none;
+        appearance:none;
+        background-image: url(img/button_arrow_down@2x.png);
+        background-size: 16px 16px;
+        background-position: right 10px center;
+        background-repeat: no-repeat;
+        margin-bottom: 20px;
+    }
+
+    .program-select:focus {
+        outline: none;
+    }
+
+    .program-info-box {
+        padding: 20px;
+        border-radius: 8px;
+        background-color: #f5f5f5;
+        margin-bottom: 40px;
+    }
+
+    .speaker-intro-title {
+        display: inline-block;
+        padding: 0 20px;
+        background-color: #222;
+        height: 40px;
+        background-color: #222;
+        border-radius: 20px 20px 20px 4px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 40px;
+        letter-spacing: -0.9px;
+        text-align: left;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+
+    .speakers-intro-item {
+        position: relative;
+        display: flex;
+        align-items: center;
+        padding: 20px 0;
+    }
+
+    .speakers-intro-item:last-child {
+        border-bottom: 1px solid #e5e5e5;
+    }
+
+    .speakers-intro-item + .speakers-intro-item {
+        border-top: 1px solid #e5e5e5;
+    }
+
+    .speakers-intro-item-img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .speakers-intro-item-img img {
+        width: auto;
+        height: auto;
+        max-height: 100%;
+        object-fit: cover;
+    }
+
+    .speakers-intro-item-info {
+        width: calc(100% - 100px);
+        padding-left: 20px;
+    }
+
+    .program-info-heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-bottom: 20px;
+    }
+
+    .program-info-title {
+        font-size: 22px;
+        font-weight: bold;
+        line-height: 32px;
+        letter-spacing: -1.1px;
+        color: #222;
+    }
+
+    .program-info-time {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: -0.7px;
+        text-align: right;
+        color: #444;
+    }
+
+    .program-info-desc {
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: -0.7px;
+        color: #444;
+    }
+
+    .speakers-item-info-heading {
+        display: flex;
+        align-items: flex-end;
+        margin-bottom: 8px;
+    }
+
+    .speakers-list-item-name {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: -0.45px;
+        color: #222;
+        margin-right: 20px;
+    }
+
+    .speakers-list-item-job {
+        font-size: 14px;
+        line-height: 26px;
+        letter-spacing: -0.7px;
+        color: #666;
+        margin-right: 13px;
+    }
+
+    .speakers-list-item-country {
+        position: relative;
+        font-size: 14px;
+        line-height: 26px;
+        letter-spacing: -0.7px;
+        color: #666;
+    }
+
+    .speakers-list-item-country::before {
+        content: '';
+        position: absolute;
+        left: -6px;
+        top: 8px;
+        width: 1px;
+        height: 12px;
+        background-color: #b4b4b4;
+    }
+
+    .speakers-intro-description {
+        font-size: 15px;
+        line-height: 22px;
+        letter-spacing: -0.75px;
+        color: #444;
+    }
+
+    .speakers-intro-download {
+        display: flex;
+        margin-top: 6px;
+    }
+
+    .speakers-intro-download-title {
+        position: relative;
+        padding-left: 10px;
+        font-size: 12px;
+        line-height: 17px;
+        letter-spacing: -0.6px;
+        color: #666;
+        margin-right: 6px;
+    }
+
+    .speakers-intro-download-title::before {
+        content: '';
+        position: absolute;
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        left: 0;
+        top: 4px;
+        background-color: #666;
+    }
+
+    .speakers-intro-download-link {
+        font-size: 12px;
+        line-height: 17px;
+        letter-spacing: -0.6px;
+        color: #9d67e1;
+    }
+
+    .speakers-intro-download-link a {
+        color: #9d67e1;
+    }
+</style>
+<!-- e 프로그램 팝업 -->
+<script>
+    $('#programDetailModal').modal('show')
+
+    $('a[href="#"]').on('click', function (e) {
+        e.preventDefault();
+    });
+</script>
+</body>
+</html>

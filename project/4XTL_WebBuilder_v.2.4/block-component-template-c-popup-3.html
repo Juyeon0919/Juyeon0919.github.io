@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="Referrer" content="origin"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="apple-mobile-web-app-title" content="4XTL"/>
+    <meta name="robots" content="index,nofollow"/>
+    <meta name="description" content="4XTL"/>
+    <meta name="keywords" content="4XTL"/>
+    <meta property="og:image" content="img/logo.png"/>
+    <!--    <link rel="shortcut icon" href="favicon.ico">-->
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link type="text/css" rel="stylesheet" href="css/common.css"/>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.twbsPagination.js"></script>
+    <title>4XTL</title>
+</head>
+<body>
+<!-- s 로그인 팝업 -->
+<div class="modal fade" id="logInModal" tabindex="-1" aria-labelledby="logInModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered login-modal-dialog">
+        <div class="modal-content login-modal-content loginPopSize">
+            <div class="log-b loginBgClass">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close" id="regPopClose">
+                        <span class="sr-only">닫기</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="log-title">
+                        <i class="ico-circle"></i>
+                        <span class="log-title-txt">Login</span>
+                    </div>
+                    <form class="login-form">
+                        <div class="form-group log-form-g">
+                            <label for="loginEmail" class="log-form-g-l">EMAIL</label>
+                            <input type="email" class="form-control form-g-control log-form-control" id="loginEmail" placeholder="EMAIL">
+                        </div>
+                        <div class="form-group log-form-g">
+                            <label for="loginPassword" class="log-form-g-l">PASSWORD</label>
+                            <input type="password" class="form-control form-g-control log-form-control" id="loginPassword" placeholder="PASSWORD">
+                        </div>
+                    </form>
+                    <div class="log-etc">
+                        <div class="log-etc-item">
+                            <span class="log-etc-item-txt">Don't you have account ?</span>
+                            <a href="#" class="log-etc-item-link" data-toggle="modal" data-target="#signInModal">Sign Up</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" id="btnLogin" class="btn btn-primary btn-sm w-100 loginBtnClass">Sign In</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- e 로그인 팝업 -->
+<script>
+  $('#logInModal').modal('show')
+
+  $('a[href="#"]').on('click', function (e) {
+    e.preventDefault();
+  });
+</script>
+</body>
+</html>
