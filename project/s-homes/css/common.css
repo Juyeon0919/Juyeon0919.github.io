@@ -307,32 +307,32 @@ template {
   font-family: Gmarket Sans;
   font-style: normal;
   font-weight: 300;
-  src: local("Gmarket Sans"), url("../../fonts/GmarketSans/GmarketSansTTFLight.ttf") format("truetype"), url("../../fonts/GmarketSans/GmarketSansLight.otf") format("opentype"); }
+  src: local("Gmarket Sans"), url("../fonts/GmarketSans/GmarketSansTTFLight.ttf") format("truetype"), url("../fonts/GmarketSans/GmarketSansLight.otf") format("opentype"); }
 @font-face {
   font-family: Gmarket Sans;
   font-style: normal;
   font-weight: 500;
-  src: local("Gmarket Sans"), url("../../fonts/GmarketSans/GmarketSansTTFMedium.ttf") format("truetype"), url("../../fonts/GmarketSans/GmarketSansMedium.otf") format("opentype"); }
+  src: local("Gmarket Sans"), url("../fonts/GmarketSans/GmarketSansTTFMedium.ttf") format("truetype"), url("../fonts/GmarketSans/GmarketSansMedium.otf") format("opentype"); }
 @font-face {
   font-family: Gmarket Sans;
   font-style: normal;
   font-weight: 700;
-  src: local("Gmarket Sans"), url("../../fonts/GmarketSans/GmarketSansTTFBold.ttf") format("truetype"), url("../../fonts/GmarketSans/GmarketSansBold.otf") format("opentype"); }
+  src: local("Gmarket Sans"), url("../fonts/GmarketSans/GmarketSansTTFBold.ttf") format("truetype"), url("../fonts/GmarketSans/GmarketSansBold.otf") format("opentype"); }
 @font-face {
   font-family: "NanumSquareNeo";
   font-style: normal;
   font-weight: 300;
-  src: local("NanumSquareNeo"), url("../../fonts/NanumSquareNeo/NanumSquareNeoTTF-aLt.eot") format("Embedded Open Type"), url("../../fonts/NanumSquareNeo/NanumSquareNeoTTF-aLt.woff") format("woff"), url("../../fonts/NanumSquareNeo/NanumSquareNeoTTF-aLt.woff2") format("woff2"); }
+  src: local("NanumSquareNeo"), url("../fonts/NanumSquareNeo/NanumSquareNeoTTF-aLt.eot") format("Embedded Open Type"), url("../fonts/NanumSquareNeo/NanumSquareNeoTTF-aLt.woff") format("woff"), url("../fonts/NanumSquareNeo/NanumSquareNeoTTF-aLt.woff2") format("woff2"); }
 @font-face {
   font-family: "NanumSquareNeo";
   font-style: normal;
   font-weight: 400;
-  src: local("NanumSquareNeo"), url("../../fonts/NanumSquareNeo/NanumSquareNeoTTF-bRg.eot") format("Embedded Open Type"), url("../../fonts/NanumSquareNeo/NanumSquareNeoTTF-bRg.woff") format("woff"), url("../../fonts/NanumSquareNeo/NanumSquareNeoTTF-bRg.woff2") format("woff2"); }
+  src: local("NanumSquareNeo"), url("../fonts/NanumSquareNeo/NanumSquareNeoTTF-bRg.eot") format("Embedded Open Type"), url("../fonts/NanumSquareNeo/NanumSquareNeoTTF-bRg.woff") format("woff"), url("../fonts/NanumSquareNeo/NanumSquareNeoTTF-bRg.woff2") format("woff2"); }
 @font-face {
   font-family: "NanumSquareNeo";
   font-style: normal;
   font-weight: 700;
-  src: local("NanumSquareNeo"), url("../../fonts/NanumSquareNeo/NanumSquareNeoTTF-cBd.eot") format("Embedded Open Type"), url("../../fonts/NanumSquareNeo/NanumSquareNeoTTF-cBd.woff") format("woff"), url("../../fonts/NanumSquareNeo/NanumSquareNeoTTF-cBd.woff2") format("woff2"); }
+  src: local("NanumSquareNeo"), url("../fonts/NanumSquareNeo/NanumSquareNeoTTF-cBd.eot") format("Embedded Open Type"), url("../fonts/NanumSquareNeo/NanumSquareNeoTTF-cBd.woff") format("woff"), url("../fonts/NanumSquareNeo/NanumSquareNeoTTF-cBd.woff2") format("woff2"); }
 /* init */
 body {
   font-family: Gmarket Sans;

@@ -11,15 +11,54 @@
   <meta name="keywords" content="Sherlock Homes"/>
   <meta property="og:image" content="img/logo.png"/>
   <!--    <link rel="shortcut icon" href="favicon.ico">-->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
   <link type="text/css" rel="stylesheet" href="css/common.css"/>
-  <script src="https://kit.fontawesome.com/dfd740d0b6.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <link type="text/css" rel="stylesheet" href="css/pages.css"/>
   <title>Sherlock Homes</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </head>
 <body>
 <div class="wrap">
   <div class="container">
+    <div class="swiper-container main-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="https://images.homify.com/c_fill,f_auto,q_0,w_740/v1489669385/p/photo/image/1909300/%EC%9A%B8%EC%A3%BC_5_-web.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="https://images.chosun.com/resizer/qGPz5be29MOF1LMl6rTxRUByOec=/464x0/smart/cloudfront-ap-northeast-1.images.arcpublishing.com/chosun/6O27GRABBTU3PQOS57U3Q3TFTI.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="http://news.kbs.co.kr/data/news/2018/06/22/3668045_340.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="https://obj-sg.thewiki.kr/data/41443343424334312d443431362d343236442d394344372d4332423039373541363634312e6a7067.jpg" alt=""></div>
+      </div>
+<!--      <div class="swiper-button-prev"></div>-->
+<!--      <div class="swiper-button-next"></div>-->
+    </div>
+    <script>
+      new Swiper('.main-slider', {
+        loop: true,
+        autoplay: {
+          delay: 3000,
+        },
+        preloadImages: false,
+        lazy: true,
+        // nextButton: '.swiper-button-next',
+        // prevButton: '.swiper-button-prev',
+        slidesPerView: 1,
+        paginationClickable: true,
+        spaceBetween: 20,
+        // breakpoints: {
+        //   1920: {
+        //     slidesPerView: 3,
+        //     spaceBetween: 30
+        //   },
+        //   1028: {
+        //     slidesPerView: 2,
+        //     spaceBetween: 30
+        //   },
+        //   480: {
+        //     slidesPerView: 1,
+        //     spaceBetween: 10
+        //   }
+        // }
+      });
+    </script>
     <div class="menu">
       <h1><a href="#">Sherlock Home's</a></h1>
     </div>
@@ -39,7 +78,7 @@
     </div>
     <!-- s 메인 페이지 내용 -->
     <div class="main">
-      <div class="list main">
+      <div class="list">
         <ul>
           <!-- ** item 항목은 12개로 제한두기 *** -->
           <li class="item">

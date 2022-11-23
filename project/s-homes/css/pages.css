@@ -1,3 +1,14 @@
-
+.main-slider {
+  overflow: hidden;
+  max-width: 1920px;
+  margin: 0 auto;
+  width: 100%;
+  height: auto; }
+  .main-slider .swiper-slide {
+    width: 100%;
+    height: 100%; }
+    .main-slider .swiper-slide img {
+      width: 100%;
+      height: 100%; }
 
 /*# sourceMappingURL=pages.css.map */
