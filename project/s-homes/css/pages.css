@@ -1,14 +1,86 @@
 .main-slider {
+  position: relative;
   overflow: hidden;
   max-width: 1920px;
   margin: 0 auto;
   width: 100%;
   height: auto; }
   .main-slider .swiper-slide {
-    width: 100%;
-    height: 100%; }
-    .main-slider .swiper-slide img {
-      width: 100%;
-      height: 100%; }
+    height: 600px;
+    background-size: cover;
+    background-position: center; }
+  .main-slider .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: #e0dede; }
+
+/* mobile */
+@media (max-width: 768px) {
+  .main-slider .swiper-slide {
+    height: 400px; } }
+/* mobile */
+@media (max-width: 375px) {
+  .main-slider .swiper-slide {
+    height: 200px; } }
+.category-slider {
+  position: relative;
+  padding: 100px; }
+  .category-slider .swiper-pagination .swiper-pagination-bullet {
+    background-color: transparent !important; }
+
+.detail {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px; }
+  .detail .detail-header {
+    padding: 50px 0;
+    border-bottom: 1px solid #E9E9E9;
+    margin-bottom: 50px; }
+    .detail .detail-header .title {
+      font-weight: 700;
+      font-size: 44px;
+      line-height: 60px;
+      letter-spacing: -1px;
+      color: #000000;
+      margin-bottom: 23px; }
+    .detail .detail-header .date {
+      font-size: 18px;
+      line-height: 22px;
+      color: #909090;
+      letter-spacing: 0.25px; }
+  .detail .detail-body img {
+    width: 100%; }
+    .detail .detail-body img + img {
+      margin-top: 20px; }
+    .detail .detail-body img + p {
+      margin-top: 20px; }
+  .detail .detail-body p {
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: -0.75px;
+    color: #454545; }
+    .detail .detail-body p + p {
+      margin-top: 40px; }
+
+/* tablet */
+@media (max-width: 1200px) {
+  .detail {
+    width: 750px;
+    padding: 0; } }
+/* mobile */
+@media (max-width: 768px) {
+  .detail {
+    width: 100%; }
+    .detail .detail-header {
+      padding: 20px 0;
+      margin-bottom: 20px; }
+      .detail .detail-header .title {
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 5px; }
+      .detail .detail-header .date {
+        font-size: 12px;
+        line-height: 20px; }
+    .detail .detail-body {
+      font-size: 12px;
+      line-height: 20px; } }
 
 /*# sourceMappingURL=pages.css.map */

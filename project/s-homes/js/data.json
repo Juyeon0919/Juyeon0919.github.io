@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "contents": [
+  {
+    "id": "123456",
+    "name": "전세",
+    "description": "내용이다 내용이야",
+    "url": "전세/1234567",
+    "category": "전세"
+  },
+  {
+    "id": "789456",
+    "name": "월세",
+    "description": "내용이다 내용이야",
+    "url": "전세/789456",
+    "category": "월세"
+  }
+]
+}

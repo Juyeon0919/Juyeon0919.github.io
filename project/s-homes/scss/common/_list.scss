@@ -5,6 +5,8 @@
   ul {
     display: table;
     table-layout: fixed;
+    max-width: 1480px;
+    margin: 0 auto;
   }
 
   .item {
@@ -61,7 +63,8 @@
 }
 
 .category {
-  margin-bottom: 10px;
+  display: block;
+  margin-top: 20px;
 
   .category-list {
     text-align: center;
@@ -101,11 +104,16 @@
 @media (max-width: 375px) {
   .list {
     .item {
-      width: 270px;
+      width: 100%;
+      margin: 20px 0 10px;
 
       .img {
-        height: 270px;
+        height: calc(100vw - 10px);
       }
     }
+  }
+  
+  .category {
+    display: none;
   }
 }
