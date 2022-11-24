@@ -348,6 +348,227 @@
     url('../fonts/Suit/SUIT-Bold.woff2') format('woff2');
 }
 
+@font-face {
+    font-family: 'Alegreya SC';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Alegreya SC'),
+    url('../fonts/AlegreyaSC/AlegreyaSC-Regular.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Alegreya SC';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Alegreya SC'),
+    url('../fonts/AlegreyaSC/AlegreyaSC-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Alegreya SC';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Alegreya SC'),
+    url('../fonts/AlegreyaSC/AlegreyaSC-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Lobster Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lobster Regular'),
+    url('../fonts/Lobster/Lobster-Regular.ttf') format('truetype'),
+    url('../fonts/Lobster/Lobster-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Notable';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Notable Regular'), local('Notable-Regular'),
+    url('../fonts/Notable/Notable-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Notable/Notable-Regular.woff2') format('woff2'),
+    url('../fonts/Notable/Notable-Regular.woff') format('woff'),
+    url('../fonts/Notable/Notable-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ChosunBg';
+    font-style: normal;
+    font-weight: 400;
+    src: local('ChosunBg'),
+    url('../fonts/Chosun/ChosunBg.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'ChosunGu';
+    font-style: normal;
+    font-weight: 400;
+    src: local('ChosunGu'),
+    url('../fonts/Chosun/ChosunGu.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'ChosunGs';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/Chosun/ChosunGs.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'ChosunLo';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/Chosun/ChosunLo.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'ChosunSm';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/Chosun/ChosunSm.woff') format('woff');
+}
+
+@font-face {
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/NaverNanumSquare/NanumSquareL.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/NaverNanumSquare/NanumSquareR.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/NaverNanumSquare/NanumSquareB.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: NanumSquareRound;
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/NaverNanumSquareRound/NanumSquareRoundL.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: NanumSquareRound;
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/NaverNanumSquareRound/NanumSquareRoundR.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: NanumSquareRound;
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/NaverNanumSquareRound/NanumSquareRoundB.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: NanumSquareNeo;
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/NaverNanumSquareNeo/NanumSquareNeo-aLt.ttf') format('truetype'),
+    url('../fonts/NaverNanumSquareNeo/NanumSquareNeoTTF-aLt.woff') format('woff'),
+    url('../fonts/NaverNanumSquareNeo/NanumSquareNeoTTF-aLt.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: NanumSquareNeo;
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/NaverNanumSquareNeo/NanumSquareNeo-bRg.ttf') format('truetype'),
+    url('../fonts/NaverNanumSquareNeo/NanumSquareNeoTTF-bRg.woff') format('woff'),
+    url('../fonts/NaverNanumSquareNeo/NanumSquareNeoTTF-bRg.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: NanumSquareNeo;
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/NaverNanumSquareNeo/NanumSquareNeo-cBd.ttf') format('truetype'),
+    url('../fonts/NaverNanumSquareNeo/NanumSquareNeoTTF-cBd.woff') format('woff'),
+    url('../fonts/NaverNanumSquareNeo/NanumSquareNeoTTF-cBd.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'CookieRun';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/CookieRun/CookieRunRegular.ttf') format('truetype'),
+    url('../fonts/CookieRun/CookieRunRegular.woff') format('woff'),
+    url('../fonts/CookieRun/CookieRunRegular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'CookieRun';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/CookieRun/CookieRunBold.ttf') format('truetype'),
+    url('../fonts/CookieRun/CookieRunBold.woff') format('woff'),
+    url('../fonts/CookieRun/CookieRunBold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'CookieRun';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/CookieRun/CookieRunBlack.ttf') format('truetype'),
+    url('../fonts/CookieRun/CookieRunBlack.woff') format('woff'),
+    url('../fonts/CookieRun/CookieRunBlack.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'bitbit';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/DNFBitBit/DNFBitBitOTF.otf') format('opentype'),
+    url('../fonts/DNFBitBit/DNFBitBitTTF.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'GangwonEduPowerExtraBoldA';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/GangwonEdu/GangwonEduPowerExtraBoldA.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'BMEULJIRO';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/BMEULJIRO/BMEULJIRO.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'HSBombaram';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/HSBombaram/HSBombaram.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'MICEGothic';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/MICEGothic/MICEGothic.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'MICEGothic Bold';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/MICEGothic/MICEGothic-Bold.woff2') format('woff2');
+}
+
 .font-g-market {
     font-family: 'Gmarket Sans';
 }
@@ -378,6 +599,78 @@
 
 .font-suit {
     font-family: 'SUIT';
+}
+
+.font-Alegreya {
+    font-family: 'Alegreya SC', sans-serif;
+}
+
+.font-lobster {
+    font-family: 'Lobster Regular';
+}
+
+.font-notable {
+    font-family: 'Notable', sans-serif;
+}
+
+.font-chosun-1 {
+    font-family: 'ChosunBg';
+}
+
+.font-chosun-2 {
+    font-family: 'ChosunGu';
+}
+
+.font-chosun-3 {
+    font-family: 'ChosunGs';
+}
+
+.font-chosun-4 {
+    font-family: 'ChosunLo';
+}
+
+.font-chosun-5 {
+    font-family: 'ChosunSm';
+}
+
+.font-nanumsquare {
+    font-family: NanumSquare, 나눔스퀘어, sans-serif;
+}
+
+.font-nanumsquareround {
+    font-family: NanumSquareRound, "나눔스퀘어 라운드", sans-serif;
+}
+
+.font-nanumsquareneo {
+    font-family: NanumSquareNeo;
+}
+
+.font-cookierun {
+    font-family: 'CookieRun';
+}
+
+.font-bitbit {
+    font-family: 'bitbit';
+}
+
+.font-gangwonEdu {
+    font-family: 'GangwonEduPowerExtraBoldA';
+}
+
+.font-euljiro {
+    font-family: 'BMEULJIRO';
+}
+
+.font-bombaram {
+    font-family: 'HSBombaram';
+}
+
+.font-mice {
+    font-family: 'MICEGothic';
+}
+
+.font-mice-bold {
+    font-family: 'MICEGothic Bold';
 }
 
 .font-weight-medium {
@@ -1249,7 +1542,7 @@ input.form-g-control-num[type="number"]::-webkit-inner-spin-button {
     border-radius: 15px;
     border: solid 1px #d6d6d6;
     color: #b2b2b2;
-    background-color: var(--white);
+    background-color: #fff;
 }
 
 .lang.type-2 .nav-lang-link.active {
