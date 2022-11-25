@@ -1,0 +1,38 @@
+.pagination {
+  margin: 50px 0 0;
+  padding: 0;
+  text-align: center;
+
+  li {
+    display: inline;
+
+    &:active, &.active {
+      a {
+        font-weight: bold;
+        color: #222;
+      }
+    }
+
+    &:first-child, &:last-child {
+      a {
+        color: #222 !important;
+      }
+    }
+
+    &:not(.active) {
+      a {
+        color: #999;
+      }
+    }
+
+    a {
+      display: inline-block;
+      text-decoration: none;
+      padding: 5px 10px;
+      color: #222;
+      border-radius: 5px;
+      -webkit-transition: background-color 0.3s;
+      transition: background-color 0.3s;
+    }
+  }
+}

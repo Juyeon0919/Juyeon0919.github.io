@@ -17,7 +17,7 @@
   .main-slider .swiper-slide {
     height: 400px; } }
 /* mobile */
-@media (max-width: 375px) {
+@media (max-width: 420px) {
   .main-slider .swiper-slide {
     height: 200px; } }
 .category-slider {
