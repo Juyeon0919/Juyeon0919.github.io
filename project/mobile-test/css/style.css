@@ -1,0 +1,22 @@
+html {
+    -ms-content-zooming: none;
+    -ms-touch-action: pan-x pan-y;
+}
+
+body {
+    background-color: pink;
+}
+
+/* Portrait */
+@media (max-width: 1025px) and (orientation: portrait) {
+    body {
+        background-color: red;
+    }
+}
+
+/* Landscape */
+@media (max-width: 1025px) and (orientation: landscape) {
+    body {
+        background-color: blue;
+    }
+}
