@@ -8,14 +8,14 @@ body {
 }
 
 /* Portrait */
-@media (max-width: 1025px) and (orientation: portrait) {
+@media (max-width: 768px) and (max-height: 1025px) and (orientation: portrait) {
     body {
         background-color: red;
     }
 }
 
 /* Landscape */
-@media (max-width: 1025px) and (orientation: landscape) {
+@media (max-width: 1025px) and (max-height: 768px) and (orientation: landscape) {
     body {
         background-color: blue;
     }
