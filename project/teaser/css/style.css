@@ -331,7 +331,7 @@ template {
   font-display: swap;
 }
 @font-face {
-  font-family: normalidad-wide, sans-serif;
+  font-family: "Normalidad";
   font-style: normal;
   font-weight: 900;
   src: url("../fonts/Normalidad/NormalidadCompact-Black.eot");
@@ -339,7 +339,7 @@ template {
   font-display: swap;
 }
 @font-face {
-  font-family: normalidad-wide, sans-serif;
+  font-family: "Normalidad";
   font-style: normal;
   font-weight: 500;
   src: url("../fonts/Normalidad/NormalidadCompact-Medium.eot");
@@ -347,8 +347,9 @@ template {
   font-display: swap;
 }
 @font-face {
-  font-family: "Pretendard";
-  font-weight: 700;
+  font-family: "Pretendard-Regular";
+  font-style: normal;
+  font-weight: 500;
   src: url("../fonts/Pretendard/Pretendard-Bold.otf") format("opentype"), url("../fonts/Pretendard/Pretendard-Bold.woff2") format("woff2"), url("../fonts/Pretendard/Pretendard-Bold.woff") format("woff"), url("../fonts/Pretendard/Pretendard-Bold.ttf") format("truetype");
   font-display: swap;
 }
@@ -559,7 +560,7 @@ a:focus, a:active, button:focus, button:active {
   height: auto;
 }
 .section-visual .heading .desc {
-  font-family: normalidad-wide;
+  font-family: "Normalidad";
   font-weight: 900;
   font-size: 28px;
   line-height: 45px;
@@ -584,7 +585,7 @@ a:focus, a:active, button:focus, button:active {
   text-align: center;
 }
 .section-visual .bottom .txt {
-  font-family: normalidad-wide;
+  font-family: "Normalidad";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -838,7 +839,7 @@ a:focus, a:active, button:focus, button:active {
   justify-content: center;
 }
 .section-collection .heading .tit {
-  font-family: normalidad-wide;
+  font-family: "Normalidad";
   font-weight: 900;
   font-size: 98px;
   line-height: 105px;
@@ -1078,7 +1079,7 @@ a:focus, a:active, button:focus, button:active {
   line-height: 41px;
 }
 .section-collection .character-desc-box .slider .slide-lg .txt-area .tit-sm {
-  font-family: normalidad-wide;
+  font-family: "Normalidad";
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
