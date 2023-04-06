@@ -694,6 +694,7 @@ a:focus, a:active, button:focus, button:active {
 .section-brand .emoji .tape .emotion img {
   width: 100%;
   height: auto;
+  transform: translateY(-10px);
 }
 .section-brand .emoji .tape .sticker {
   position: absolute;
@@ -1183,7 +1184,7 @@ a:focus, a:active, button:focus, button:active {
   top: 20px;
   left: 20px;
   padding: 10px;
-  background-color: aquamarine;
+  background-color: red;
   font-weight: bold;
   z-index: 10;
 }
