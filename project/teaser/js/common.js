@@ -281,7 +281,7 @@ window.onload = function (){
     let characterStickerAniThree = gsap.timeline({
       scrollTrigger: {
         trigger: '.character-box-3',
-        start: 'top',
+        start: '-=80',
         end: 'bottom',
         scrub: 0.5,
         // markers: true,
