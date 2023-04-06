@@ -23,7 +23,7 @@ window.onload = function (){
         trigger: '.section-brand',
         start: '-=100',
         end: '+=200',
-        scrub: 0.5,
+        scrub: true,
         // markers: true,
         onEnter: function() {
           gsap.to('._brandTextAni', {
@@ -47,9 +47,9 @@ window.onload = function (){
     let emojiTextAnimation = gsap.timeline({
       scrollTrigger: {
         trigger: '.section-brand .emoji',
-        start: '-=300',
+        start: '-=400',
         end: 'bottom',
-        scrub: 0.5,
+        scrub: true,
         // markers: true,
         onEnter: function() {
           emojiTimeline.play();
@@ -87,14 +87,14 @@ window.onload = function (){
         trigger: '.section-next-emoji',
         start: '-=300',
         end: '+=200',
-        scrub: 0.5,
+        scrub: true,
         // markers: true,
         onEnter: function() {
           nextEmojiTimeline.play();
 
           gsap.to('._plusOne, ._plusTwo', {
             opacity: 1,
-            delay: 1,
+            delay: 2,
             duration: 1.5,
             scale: 1,
             ease: 'bounce.out'
@@ -142,7 +142,7 @@ window.onload = function (){
         pin: true,
         start: '+=100',
         end: 'bottom 10%',
-        scrub: .5,
+        scrub: true,
         // markers: true,
       }
     }).to('._slideOne', {
@@ -157,7 +157,7 @@ window.onload = function (){
         pin: true,
         start: '+=100',
         end: 'bottom 10%',
-        scrub: .5,
+        scrub: true,
         // markers: true,
       }
     }).to('._slideTwo', {
@@ -172,7 +172,7 @@ window.onload = function (){
         pin: true,
         start: '+=100',
         end: 'bottom 10%',
-        scrub: .5,
+        scrub: true,
         // markers: true,
       }
     }).to('._slideThree', {
@@ -187,7 +187,7 @@ window.onload = function (){
         pin: true,
         start: '+=100',
         end: 'bottom 10%',
-        scrub: .5,
+        scrub: true,
         // markers: true,
       }
     }).to('._slideFour', {
@@ -207,7 +207,7 @@ window.onload = function (){
         trigger: '.character-box-1',
         start: '-=80',
         end: 'bottom',
-        scrub: 0.5,
+        scrub: true,
         // markers: true,
         onEnter: function() {
           characterOneStickers.forEach((sticker)=>{
@@ -245,7 +245,7 @@ window.onload = function (){
         trigger: '.character-box-2',
         start: '-=80',
         end: 'bottom',
-        scrub: 0.5,
+        scrub: true,
         // markers: true,
         onEnter: function() {
           characterTwoStickers.forEach((sticker)=>{
@@ -283,7 +283,7 @@ window.onload = function (){
         trigger: '.character-box-3',
         start: '-=80',
         end: 'bottom',
-        scrub: 0.5,
+        scrub: true,
         // markers: true,
         onEnter: function() {
           characterThreeStickers.forEach((sticker)=>{
@@ -321,7 +321,7 @@ window.onload = function (){
         trigger: '.character-box-4',
         start: '-=80',
         end: 'bottom',
-        scrub: 0.5,
+        scrub: true,
         // markers: true,
         onEnter: function() {
           characterFourStickers.forEach((sticker)=>{

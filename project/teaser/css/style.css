@@ -1149,7 +1149,7 @@ a:focus, a:active, button:focus, button:active {
   top: 20px;
   left: 20px;
   padding: 10px;
-  background-color: lightskyblue;
+  background-color: gold;
   font-weight: bold;
   z-index: 10;
 }
