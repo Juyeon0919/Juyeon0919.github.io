@@ -1140,4 +1140,14 @@ a:focus, a:active, button:focus, button:active {
   object-fit: cover;
 }
 
+.top-badge {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  padding: 10px;
+  background-color: hotpink;
+  font-weight: bold;
+  z-index: 10;
+}
+
 /*# sourceMappingURL=style.css.map */
