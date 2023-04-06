@@ -664,6 +664,7 @@ a:focus, a:active, button:focus, button:active {
   font-size: 32px;
   line-height: 46px;
   letter-spacing: -0.01em;
+  opacity: 0;
 }
 .section-brand .emoji .tit {
   display: flex;
@@ -674,6 +675,7 @@ a:focus, a:active, button:focus, button:active {
   font-size: 84px;
   line-height: 153px;
   letter-spacing: -0.03em;
+  opacity: 0;
 }
 .section-brand .emoji .tit .ico {
   margin-left: 18px;
@@ -736,6 +738,7 @@ a:focus, a:active, button:focus, button:active {
   align-items: center;
   padding-top: 202px;
   margin-bottom: 40px;
+  opacity: 0;
 }
 .section-next-emoji .heading .next-emoji {
   margin-right: 20px;
@@ -826,6 +829,7 @@ a:focus, a:active, button:focus, button:active {
   position: absolute;
   top: 0;
   left: 0;
+  opacity: 0;
 }
 
 .section-collection .inner {
@@ -1141,6 +1145,7 @@ a:focus, a:active, button:focus, button:active {
   margin-top: 838px;
   color: #fff;
   text-align: center;
+  opacity: 0;
 }
 .collection-txt-box .txt-1 {
   font-family: "Normalidad";

@@ -227,7 +227,7 @@ window.onload = function (){
     gsap.timeline({
       scrollTrigger: {
         trigger: '.character-desc-box-4',
-        start: '50%',
+        start: '40%',
         end: 'bottom',
         scrub: true,
         // markers: true,
