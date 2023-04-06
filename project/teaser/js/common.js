@@ -90,22 +90,26 @@ window.onload = function (){
         scrub: 0.5,
         // markers: true,
         onEnter: function() {
+          nextEmojiTimeline.play();
+
           gsap.to('._plusOne, ._plusTwo', {
             opacity: 1,
+            delay: 1,
             duration: 1.5,
             scale: 1,
             ease: 'bounce.out'
           });
-          nextEmojiTimeline.play();
         },
         onLeaveBack: function() {
+          nextEmojiTimeline.reverse();
+
           gsap.to('._plusOne, ._plusTwo', {
             opacity: 0,
+            delay: 1,
             duration: 1.5,
             scale: 0,
             ease: 'bounce.out'
           });
-          nextEmojiTimeline.reverse();
         }
       }
     })
