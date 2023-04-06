@@ -1,0 +1,18 @@
+/*
+  Common
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $gmarket;
+  color: $black;
+}
+
+em, i {
+  font-style: normal;
+}

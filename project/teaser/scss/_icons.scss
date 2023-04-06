@@ -1,0 +1,41 @@
+/*
+  Icon
+*/
+.ico {
+  display: inline-block;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ico-arrow {
+  width: 25px;
+  height: 26px;
+  background-image: url(../img/ico-arrow.svg);
+}
+
+.ico-emoji {
+  width: 302px;
+  height: 161px;
+  background-image: url(../img/ico-emoji.png);
+}
+
+.ico-mail {
+  width: 20px;
+  height: 20px;
+  background-position: 0 2px;
+  background-image: url(../img/ico-mail.svg);
+}
+
+.ico-home {
+  width: 20px;
+  height: 20px;
+  background-position: 0 2px;
+  background-image: url(../img/ico-home.svg);
+}
+
+.ico-behance {
+  width: 20px;
+  height: 20px;
+  background-position: 0 2px;
+  background-image: url(../img/ico-behance.svg);
+}

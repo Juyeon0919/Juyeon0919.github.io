@@ -1,0 +1,19 @@
+{
+  "name": "ovu-teaser",
+  "version": "1.0.0",
+  "description": "OVu teaser site",
+  "main": "index.js",
+  "scripts": {
+    "watch": "sass --watch scss/style.scss:css/style.css"
+  },
+  "keywords": [
+    "OVu",
+    "digital",
+    "fashion"
+  ],
+  "author": "Juyeon Lee",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.60.0"
+  }
+}

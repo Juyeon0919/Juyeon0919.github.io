@@ -1,0 +1,72 @@
+/*
+  Fonts
+*/
+@font-face {
+  font-family: 'GmarketSans';
+  font-weight: 300;
+  font-style: normal;
+  src: url('../fonts/GmarketSans/GmarketSansLight.eot');
+  src: url('../fonts/GmarketSans/GmarketSansLight.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/GmarketSans/GmarketSansLight.woff2') format('woff2'),
+  url('../fonts/GmarketSans/GmarketSansLight.woff') format('woff'),
+  url('../fonts/GmarketSans/GmarketSansLight.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GmarketSans';
+  font-weight: 500;
+  font-style: normal;
+  src: url('../fonts/GmarketSans/GmarketSansMedium.eot');
+  src: url('../fonts/GmarketSans/GmarketSansMedium.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/GmarketSans/GmarketSansMedium.woff2') format('woff2'),
+  url('../fonts/GmarketSans/GmarketSansMedium.woff') format('woff'),
+  url('../fonts/GmarketSans/GmarketSansMedium.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GmarketSans';
+  font-weight: 700;
+  font-style: normal;
+  src: url('../fonts/GmarketSans/GmarketSansBold.eot');
+  src: url('../fonts/GmarketSans/GmarketSansBold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/GmarketSans/GmarketSansBold.woff2') format('woff2'),
+  url('../fonts/GmarketSans/GmarketSansBold.woff') format('woff'),
+  url('../fonts/GmarketSans/GmarketSansBold.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: normalidad-wide, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/Normalidad/NormalidadCompact-Black.eot');
+  src: url('../fonts/Normalidad/NormalidadCompact-Black.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Normalidad/NormalidadCompact-Black.woff2') format('woff2'),
+  url('../fonts/Normalidad/NormalidadCompact-Black.woff') format('woff'),
+  url('../fonts/Normalidad/NormalidadCompact-Black.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: normalidad-wide, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/Normalidad/NormalidadCompact-Medium.eot');
+  src: url('../fonts/Normalidad/NormalidadCompact-Medium.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Normalidad/NormalidadCompact-Medium.woff2') format('woff2'),
+  url('../fonts/Normalidad/NormalidadCompact-Medium.woff') format('woff'),
+  url('../fonts/Normalidad/NormalidadCompact-Medium.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  font-weight: 700;
+  src: url('../fonts/Pretendard/Pretendard-Bold.otf') format('opentype'),
+  url('../fonts/Pretendard/Pretendard-Bold.woff2') format('woff2'),
+  url('../fonts/Pretendard/Pretendard-Bold.woff') format('woff'),
+  url('../fonts/Pretendard/Pretendard-Bold.ttf') format('truetype');
+  font-display: swap;
+}
