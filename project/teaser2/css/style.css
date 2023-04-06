@@ -820,6 +820,15 @@ a:focus, a:active, button:focus, button:active {
 .section-mirror .img {
   width: 100%;
 }
+.section-mirror .img::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: inset 6px 6px 6px rgba(0, 0, 0, 0.25);
+  top: 0;
+  left: 0;
+}
 .section-mirror .img img {
   display: block;
   width: 100%;
@@ -1174,7 +1183,7 @@ a:focus, a:active, button:focus, button:active {
   top: 20px;
   left: 20px;
   padding: 10px;
-  background-color: hotpink;
+  background-color: aquamarine;
   font-weight: bold;
   z-index: 10;
 }
