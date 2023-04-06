@@ -230,7 +230,7 @@ window.onload = function (){
         start: '50%',
         end: 'bottom',
         scrub: true,
-        markers: true,
+        // markers: true,
         onEnter: function() {
           fadeIn('._nextCollectionTextAni')
         },
